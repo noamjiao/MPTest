@@ -1,4 +1,17 @@
-# First Question Result
+# MPTest Code
+
+1 -  Built a component in React to submit full name and phone number with the acceptance criteria below:
+
+- If a user enters a full name (min. two words) and a valid phone number (10 or 11 digits), they should see the success screen with their name.
+- If a user enters a name that has less than two words, they should see an error message (* must be your first and last name)
+- If a user enters a phone number that is invalid, they should see an error message (* numbers only (ex. 1231231234))
+
+2 - Created the API endpoint in Rails to receive the data and validate entry before storing it
+
+- If a user submits a valid entry, the API should return a 201 OK response and store the user data in the DB
+- If a user submits an invalid entry, the API should return a 400 response and not store the user data in the DB
+
+## First Question Result
 
 1. If entered all correct:
 
@@ -16,7 +29,7 @@
 
 	<img src="./image-20230414020652876.png" alt="image-20230414020652876" style="zoom:50%;" />
 
-# Second Question Result
+## Second Question Result
 
 1. For valid result test command:
 
