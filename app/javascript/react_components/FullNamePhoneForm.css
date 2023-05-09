@@ -1,0 +1,28 @@
+.FullNamePhoneForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FullNamePhoneForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FullNamePhoneForm label {
+    margin-top: 10px;
+}
+
+.FullNamePhoneForm input {
+    margin-top: 5px;
+}
+
+.FullNamePhoneForm .error-message {
+    margin-top: 10px;
+    color: red;
+}
+
+.FullNamePhoneForm button {
+    margin-top: 20px;
+}

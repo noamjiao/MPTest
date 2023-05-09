@@ -1,0 +1,1294 @@
+Started GET "/" for 127.0.0.1 at 2023-04-13 20:04:17 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 508)
+  Rendered layout layouts/application.html.erb (Duration: 483.7ms | Allocations: 142222)
+Completed 200 OK in 490ms (Views: 485.9ms | ActiveRecord: 0.0ms | Allocations: 146384)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-13 20:04:32 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 5952)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 6261)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-13 20:04:32 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 45)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 5617)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 5857)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-13 20:05:39 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 400)
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | Allocations: 45219)
+Completed 200 OK in 31ms (Views: 26.6ms | ActiveRecord: 0.0ms | Allocations: 48150)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-13 20:05:58 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 67)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 5789)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 6091)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-13 20:06:15 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 400)
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 45324)
+Completed 200 OK in 32ms (Views: 23.8ms | ActiveRecord: 0.0ms | Allocations: 48255)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-13 20:11:17 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 400)
+  Rendered layout layouts/application.html.erb (Duration: 23.1ms | Allocations: 44930)
+Completed 200 OK in 36ms (Views: 24.4ms | ActiveRecord: 0.0ms | Allocations: 47861)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-13 20:25:48 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 400)
+  Rendered layout layouts/application.html.erb (Duration: 20.5ms | Allocations: 45234)
+Completed 200 OK in 24ms (Views: 21.6ms | ActiveRecord: 0.0ms | Allocations: 48167)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-13 20:26:10 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 400)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 45178)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.0ms | Allocations: 48111)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 00:38:32 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 400)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+node:internal/crypto/hash:71
+  this[kHandle] = new _Hash(algorithm, xofLen);
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:71:19)
+    at Object.createHash (node:crypto:133:10)
+    at module.exports (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/util/createHash.js:135:53)
+    at NormalModule._initBuildHash (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:417:16)
+    at handleParseError (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:471:10)
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:503:5
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:358:12
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:373:3
+    at iterateNormalLoaders (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:214:10)
+    at iterateNormalLoaders (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:221:10)
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:236:3
+    at context.callback (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:111:13)
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/babel-loader/lib/index.js:44:71 {
+  opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v18.14.2
+
+  Rendered layout layouts/application.html.erb (Duration: 1435.9ms | Allocations: 49679)
+Completed 500 Internal Server Error in 1444ms (ActiveRecord: 0.0ms | Allocations: 52565)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    11:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/application.html.erb:11
+Started GET "/" for 127.0.0.1 at 2023-04-14 00:39:29 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 400)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+node:internal/crypto/hash:71
+  this[kHandle] = new _Hash(algorithm, xofLen);
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:71:19)
+    at Object.createHash (node:crypto:133:10)
+    at module.exports (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/util/createHash.js:135:53)
+    at NormalModule._initBuildHash (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:417:16)
+    at handleParseError (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:471:10)
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:503:5
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:358:12
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:373:3
+    at iterateNormalLoaders (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:214:10)
+    at iterateNormalLoaders (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:221:10)
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:236:3
+    at context.callback (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:111:13)
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/babel-loader/lib/index.js:44:71 {
+  opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v18.14.2
+
+  Rendered layout layouts/application.html.erb (Duration: 714.4ms | Allocations: 49666)
+Completed 500 Internal Server Error in 721ms (ActiveRecord: 0.0ms | Allocations: 52551)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    11:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/application.html.erb:11
+Started GET "/" for 127.0.0.1 at 2023-04-14 00:41:53 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 400)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+node:internal/crypto/hash:71
+  this[kHandle] = new _Hash(algorithm, xofLen);
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:71:19)
+    at Object.createHash (node:crypto:133:10)
+    at module.exports (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/util/createHash.js:135:53)
+    at NormalModule._initBuildHash (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:417:16)
+    at handleParseError (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:471:10)
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:503:5
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:358:12
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:373:3
+    at iterateNormalLoaders (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:214:10)
+    at iterateNormalLoaders (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:221:10)
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:236:3
+    at context.callback (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:111:13)
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/babel-loader/lib/index.js:44:71 {
+  opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v18.14.2
+
+  Rendered layout layouts/application.html.erb (Duration: 677.8ms | Allocations: 49546)
+Completed 500 Internal Server Error in 687ms (ActiveRecord: 0.0ms | Allocations: 52431)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    11:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/application.html.erb:11
+Started GET "/" for 127.0.0.1 at 2023-04-14 00:45:11 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 400)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+node:internal/crypto/hash:71
+  this[kHandle] = new _Hash(algorithm, xofLen);
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:71:19)
+    at Object.createHash (node:crypto:133:10)
+    at module.exports (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/util/createHash.js:135:53)
+    at NormalModule._initBuildHash (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:417:16)
+    at handleParseError (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:471:10)
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:503:5
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:358:12
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:373:3
+    at iterateNormalLoaders (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:214:10)
+    at iterateNormalLoaders (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:221:10)
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:236:3
+    at context.callback (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:111:13)
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/babel-loader/lib/index.js:44:71 {
+  opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v18.14.2
+
+  Rendered layout layouts/application.html.erb (Duration: 1761.1ms | Allocations: 49396)
+Completed 500 Internal Server Error in 1772ms (ActiveRecord: 0.0ms | Allocations: 52281)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    11:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/application.html.erb:11
+Started GET "/" for 127.0.0.1 at 2023-04-14 00:54:45 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 400)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+node:internal/crypto/hash:71
+  this[kHandle] = new _Hash(algorithm, xofLen);
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:71:19)
+    at Object.createHash (node:crypto:133:10)
+    at module.exports (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/util/createHash.js:135:53)
+    at NormalModule._initBuildHash (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:417:16)
+    at handleParseError (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:471:10)
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:503:5
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:358:12
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:373:3
+    at iterateNormalLoaders (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:214:10)
+    at iterateNormalLoaders (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:221:10)
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:236:3
+    at context.callback (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:111:13)
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/babel-loader/lib/index.js:44:71 {
+  opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v18.14.2
+
+  Rendered layout layouts/application.html.erb (Duration: 694.6ms | Allocations: 49508)
+Completed 500 Internal Server Error in 697ms (ActiveRecord: 0.0ms | Allocations: 52394)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    11:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/application.html.erb:11
+Started GET "/" for 127.0.0.1 at 2023-04-14 00:57:21 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 401)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+node:internal/crypto/hash:71
+  this[kHandle] = new _Hash(algorithm, xofLen);
+                  ^
+
+Error: error:0308010C:digital envelope routines::unsupported
+    at new Hash (node:internal/crypto/hash:71:19)
+    at Object.createHash (node:crypto:133:10)
+    at module.exports (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/util/createHash.js:135:53)
+    at NormalModule._initBuildHash (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:417:16)
+    at handleParseError (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:471:10)
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:503:5
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/webpack/lib/NormalModule.js:358:12
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:373:3
+    at iterateNormalLoaders (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:214:10)
+    at iterateNormalLoaders (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:221:10)
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:236:3
+    at context.callback (/Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/loader-runner/lib/LoaderRunner.js:111:13)
+    at /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/node_modules/babel-loader/lib/index.js:44:71 {
+  opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+Node.js v18.14.2
+
+  Rendered layout layouts/application.html.erb (Duration: 809.4ms | Allocations: 49051)
+Completed 500 Internal Server Error in 826ms (ActiveRecord: 0.0ms | Allocations: 51936)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application.js in /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     8: 
+     9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    10:     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    11:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    12:   </head>
+    13: 
+    14:   <body>
+  
+app/views/layouts/application.html.erb:11
+Started GET "/" for 127.0.0.1 at 2023-04-14 01:24:23 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 401)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/public/packs
+[Webpacker] Hash: 7d25ad11716b3de85734
+Version: webpack 4.46.0
+Time: 984ms
+Built at: 04/14/2023 1:24:25 AM
+                                      Asset       Size        Chunks                         Chunk Names
+    js/react_bundle-7f20d068171f0a42ebdf.js   1.23 MiB  react_bundle  [emitted] [immutable]  react_bundle
+js/react_bundle-7f20d068171f0a42ebdf.js.map   1.38 MiB  react_bundle  [emitted] [dev]        react_bundle
+                              manifest.json  371 bytes                [emitted]              
+Entrypoint react_bundle = js/react_bundle-7f20d068171f0a42ebdf.js js/react_bundle-7f20d068171f0a42ebdf.js.map
+[./app/javascript/packs/react_bundle.js] 653 bytes {react_bundle} [built]
+[./app/javascript/react_components/FullNamePhoneForm.css] 613 bytes {react_bundle} [built]
+[./app/javascript/react_components/FullNamePhoneForm.js] 7.48 KiB {react_bundle} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/react_components/FullNamePhoneForm.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./app/javascript/react_components/FullNamePhoneForm.css 1.3 KiB {react_bundle} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {react_bundle} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 547 bytes {react_bundle} [built]
+    + 11 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1746.1ms | Allocations: 48588)
+Completed 200 OK in 1751ms (Views: 1748.0ms | ActiveRecord: 0.0ms | Allocations: 51521)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 01:24:45 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 67)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 8045)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 8347)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 01:26:43 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 400)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 25.8ms | Allocations: 47176)
+Completed 200 OK in 30ms (Views: 26.9ms | ActiveRecord: 0.0ms | Allocations: 50109)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 01:28:49 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 401)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.5ms | Allocations: 47592)
+Completed 200 OK in 38ms (Views: 30.9ms | ActiveRecord: 0.0ms | Allocations: 50524)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 01:33:48 -0400
+Processing by WelcomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 401)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/aidenjiao/Desktop/桌面/面试及OA准备/已投递/mealPal/mealpal/public/packs
+[Webpacker] Hash: c57d931a74f234bea92e
+Version: webpack 4.46.0
+Time: 980ms
+Built at: 04/14/2023 1:33:49 AM
+                                      Asset       Size        Chunks                         Chunk Names
+    js/react_bundle-8d85d98fea2276d28043.js   1.23 MiB  react_bundle  [emitted] [immutable]  react_bundle
+js/react_bundle-8d85d98fea2276d28043.js.map   1.38 MiB  react_bundle  [emitted] [dev]        react_bundle
+                              manifest.json  371 bytes                [emitted]              
+Entrypoint react_bundle = js/react_bundle-8d85d98fea2276d28043.js js/react_bundle-8d85d98fea2276d28043.js.map
+[./app/javascript/packs/react_bundle.js] 653 bytes {react_bundle} [built]
+[./app/javascript/react_components/FullNamePhoneForm.css] 613 bytes {react_bundle} [built]
+[./app/javascript/react_components/FullNamePhoneForm.js] 7.48 KiB {react_bundle} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./app/javascript/react_components/FullNamePhoneForm.css] ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??ref--5-2!./app/javascript/react_components/FullNamePhoneForm.css 1.44 KiB {react_bundle} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 474 bytes {react_bundle} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 547 bytes {react_bundle} [built]
+    + 11 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 1714.6ms | Allocations: 48226)
+Completed 200 OK in 1727ms (Views: 1716.0ms | ActiveRecord: 0.0ms | Allocations: 51158)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 01:46:59 -0400
+Processing by ReactTestController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering react_test/index.html.erb within layouts/application
+  Rendered react_test/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 398)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.0ms | Allocations: 47473)
+Completed 200 OK in 31ms (Views: 29.0ms | ActiveRecord: 0.0ms | Allocations: 50428)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 01:54:55 -0400
+Processing by ReactTestController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering react_test/index.html.erb within layouts/application
+  Rendered react_test/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 398)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 28.2ms | Allocations: 47587)
+Completed 200 OK in 32ms (Views: 29.4ms | ActiveRecord: 0.0ms | Allocations: 50542)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 02:01:32 -0400
+Processing by ReactTestController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering react_test/index.html.erb within layouts/application
+  Rendered react_test/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 376)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.5ms | Allocations: 47579)
+Completed 200 OK in 44ms (Views: 33.0ms | ActiveRecord: 0.0ms | Allocations: 50533)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 02:01:46 -0400
+Processing by ReactTestController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering react_test/index.html.erb within layouts/application
+  Rendered react_test/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 50)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 7956)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms | Allocations: 8258)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 02:02:15 -0400
+Processing by ReactTestController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering react_test/index.html.erb within layouts/application
+  Rendered react_test/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 31)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 7771)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 8007)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 02:03:26 -0400
+Processing by ReactTestController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering react_test/index.html.erb within layouts/application
+  Rendered react_test/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 31)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 16.1ms | Allocations: 7927)
+Completed 200 OK in 17ms (Views: 16.7ms | ActiveRecord: 0.0ms | Allocations: 8167)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 02:05:18 -0400
+Processing by ReactTestController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering react_test/index.html.erb within layouts/application
+  Rendered react_test/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 31)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 7775)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 8015)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 02:06:10 -0400
+Processing by ReactTestController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering react_test/index.html.erb within layouts/application
+  Rendered react_test/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 31)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 7775)
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 8015)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 02:08:05 -0400
+Processing by ReactTestController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering react_test/index.html.erb within layouts/application
+  Rendered react_test/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 376)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 27.6ms | Allocations: 47742)
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.0ms | Allocations: 50697)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 02:10:20 -0400
+Processing by ReactTestController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering react_test/index.html.erb within layouts/application
+  Rendered react_test/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 376)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.0ms | Allocations: 47410)
+Completed 200 OK in 32ms (Views: 30.0ms | ActiveRecord: 0.0ms | Allocations: 50365)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 02:14:04 -0400
+Processing by ReactTestController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering react_test/index.html.erb within layouts/application
+  Rendered react_test/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 376)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 29.0ms | Allocations: 47556)
+Completed 200 OK in 36ms (Views: 30.3ms | ActiveRecord: 0.0ms | Allocations: 50510)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 02:14:20 -0400
+Processing by ReactTestController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering react_test/index.html.erb within layouts/application
+  Rendered react_test/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 50)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 7956)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 8258)
+
+
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateGuests (20230414204302)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE TABLE "guests" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "full_name" varchar, "phone_number" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230414204302"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-04-14 20:43:12.365937"], ["updated_at", "2023-04-14 20:43:12.365937"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/api/v1/guests" for 127.0.0.1 at 2023-04-14 16:49:53 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (uninitialized constant Api
+
+      Object.const_get(camel_cased_word)
+            ^^^^^^^^^^
+
+            raise MissingController.new(error.message, error.name)
+            ^^^^^):
+  
+Started POST "/api/v1/guests" for 127.0.0.1 at 2023-04-14 17:02:57 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::GuestsController#create as JSON
+  Parameters: {"guest"=>{"full_name"=>"John Doe", "phone_number"=>"1234567890"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 597)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.4) lib/action_controller/metal/request_forgery_protection.rb:251:in `handle_unverified_request'
+actionpack (7.0.4) lib/action_controller/metal/request_forgery_protection.rb:284:in `handle_unverified_request'
+actionpack (7.0.4) lib/action_controller/metal/request_forgery_protection.rb:273:in `verify_authenticity_token'
+activesupport (7.0.4) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.4) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.4) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.4) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.4) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+webpacker (5.4.4) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.6) lib/rack/proxy.rb:87:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/api/v1/guests" for 127.0.0.1 at 2023-04-14 17:03:33 -0400
+Processing by Api::V1::GuestsController#create as JSON
+  Parameters: {"guest"=>{"full_name"=>"John Doe", "phone_number"=>"1234567890"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 476)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.4) lib/action_controller/metal/request_forgery_protection.rb:251:in `handle_unverified_request'
+actionpack (7.0.4) lib/action_controller/metal/request_forgery_protection.rb:284:in `handle_unverified_request'
+actionpack (7.0.4) lib/action_controller/metal/request_forgery_protection.rb:273:in `verify_authenticity_token'
+activesupport (7.0.4) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.4) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.4) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.4) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.4) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+webpacker (5.4.4) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.6) lib/rack/proxy.rb:87:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/api/v1/guests" for 127.0.0.1 at 2023-04-14 17:04:32 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::GuestsController#create as JSON
+  Parameters: {"guest"=>{"full_name"=>"John Doe", "phone_number"=>"1234567890"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 597)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.4) lib/action_controller/metal/request_forgery_protection.rb:251:in `handle_unverified_request'
+actionpack (7.0.4) lib/action_controller/metal/request_forgery_protection.rb:284:in `handle_unverified_request'
+actionpack (7.0.4) lib/action_controller/metal/request_forgery_protection.rb:273:in `verify_authenticity_token'
+activesupport (7.0.4) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.4) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.4) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.4) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.4) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+webpacker (5.4.4) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.6) lib/rack/proxy.rb:87:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started POST "/api/v1/guests" for 127.0.0.1 at 2023-04-14 17:06:30 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::GuestsController#create as JSON
+  Parameters: {"guest"=>{"full_name"=>"John Doe", "phone_number"=>"1234567890"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 597)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.4) lib/action_controller/metal/request_forgery_protection.rb:251:in `handle_unverified_request'
+actionpack (7.0.4) lib/action_controller/metal/request_forgery_protection.rb:284:in `handle_unverified_request'
+actionpack (7.0.4) lib/action_controller/metal/request_forgery_protection.rb:273:in `verify_authenticity_token'
+activesupport (7.0.4) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.4) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.4) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.4) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.4) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+webpacker (5.4.4) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.6) lib/rack/proxy.rb:87:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/api/v1/guests" for 127.0.0.1 at 2023-04-14 17:21:31 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::GuestsController#create as JSON
+  Parameters: {"guest"=>{"full_name"=>"John Doe", "phone_number"=>"1234567890"}}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 0ms (ActiveRecord: 0.0ms | Allocations: 597)
+
+
+  
+ActionController::InvalidAuthenticityToken (Can't verify CSRF token authenticity.):
+  
+actionpack (7.0.4) lib/action_controller/metal/request_forgery_protection.rb:251:in `handle_unverified_request'
+actionpack (7.0.4) lib/action_controller/metal/request_forgery_protection.rb:284:in `handle_unverified_request'
+actionpack (7.0.4) lib/action_controller/metal/request_forgery_protection.rb:273:in `verify_authenticity_token'
+activesupport (7.0.4) lib/active_support/callbacks.rb:400:in `block in make_lambda'
+activesupport (7.0.4) lib/active_support/callbacks.rb:199:in `block (2 levels) in halting'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (7.0.4) lib/active_support/callbacks.rb:200:in `block in halting'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `block in invoke_before'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `each'
+activesupport (7.0.4) lib/active_support/callbacks.rb:595:in `invoke_before'
+activesupport (7.0.4) lib/active_support/callbacks.rb:116:in `block in run_callbacks'
+activesupport (7.0.4) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:40:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/cookies.rb:696:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+webpacker (5.4.4) lib/webpacker/dev_server_proxy.rb:25:in `perform_request'
+rack-proxy (0.7.6) lib/rack/proxy.rb:87:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2023-04-14 17:22:00 -0400
+Processing by ReactTestController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering react_test/index.html.erb within layouts/application
+  Rendered react_test/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 174)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 59.7ms | Allocations: 46765)
+Completed 200 OK in 64ms (Views: 61.4ms | ActiveRecord: 0.0ms | Allocations: 48716)
+
+
+Started POST "/api/v1/guests" for 127.0.0.1 at 2023-04-14 17:23:37 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::GuestsController#create as JSON
+  Parameters: {"guest"=>{"full_name"=>"John Doe", "phone_number"=>"1234567890"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mGuest Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "guests" WHERE "guests"."phone_number" = ? LIMIT ?[0m  [["phone_number", "1234567890"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mGuest Create (0.5ms)[0m  [1m[32mINSERT INTO "guests" ("full_name", "phone_number", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["full_name", "John Doe"], ["phone_number", "1234567890"], ["created_at", "2023-04-14 21:23:37.324590"], ["updated_at", "2023-04-14 21:23:37.324590"]]
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+Completed 201 Created in 7ms (Views: 0.1ms | ActiveRecord: 1.3ms | Allocations: 10911)
+
+
+Started POST "/api/v1/guests" for 127.0.0.1 at 2023-04-14 17:24:05 -0400
+Processing by Api::V1::GuestsController#create as JSON
+  Parameters: {"guest"=>{"full_name"=>"", "phone_number"=>"invalid_number"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mGuest Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "guests" WHERE "guests"."phone_number" = ? LIMIT ?[0m  [["phone_number", "invalid_number"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+Completed 400 Bad Request in 9ms (Views: 0.1ms | ActiveRecord: 0.2ms | Allocations: 5676)
+
+
+Started GET "/api/v1/guests" for 127.0.0.1 at 2023-04-14 17:38:47 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/guests"):
+  
+Started GET "/" for 127.0.0.1 at 2023-04-14 17:39:51 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReactTestController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering react_test/index.html.erb within layouts/application
+  Rendered react_test/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 376)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 31.5ms | Allocations: 47296)
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 0.0ms | Allocations: 50250)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 17:40:09 -0400
+Processing by ReactTestController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering react_test/index.html.erb within layouts/application
+  Rendered react_test/index.html.erb within layouts/application (Duration: 0.0ms | Allocations: 50)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 7967)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 8269)
+
+
+Started GET "/" for 127.0.0.1 at 2023-04-14 18:10:42 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ReactTestController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering react_test/index.html.erb within layouts/application
+  Rendered react_test/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 376)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 43.5ms | Allocations: 47325)
+Completed 200 OK in 49ms (Views: 45.3ms | ActiveRecord: 0.0ms | Allocations: 50280)
+
+
+Started POST "/api/v1/guests" for 127.0.0.1 at 2023-04-14 18:11:36 -0400
+Processing by Api::V1::GuestsController#create as JSON
+  Parameters: {"guest"=>{"full_name"=>"", "phone_number"=>"invalid_number"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mGuest Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "guests" WHERE "guests"."phone_number" = ? LIMIT ?[0m  [["phone_number", "invalid_number"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+Completed 400 Bad Request in 7ms (Views: 0.1ms | ActiveRecord: 0.5ms | Allocations: 10444)
+
+
+Started POST "/api/v1/guests" for 127.0.0.1 at 2023-04-14 18:12:04 -0400
+Processing by Api::V1::GuestsController#create as JSON
+  Parameters: {"guest"=>{"full_name"=>"John Doe", "phone_number"=>"1234567890"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mGuest Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "guests" WHERE "guests"."phone_number" = ? LIMIT ?[0m  [["phone_number", "1234567890"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+Completed 400 Bad Request in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 3093)
+
+
+Started POST "/api/v1/guests" for 127.0.0.1 at 2023-04-14 18:12:16 -0400
+Processing by Api::V1::GuestsController#create as JSON
+  Parameters: {"guest"=>{"full_name"=>"", "phone_number"=>"invalid_number"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mGuest Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "guests" WHERE "guests"."phone_number" = ? LIMIT ?[0m  [["phone_number", "invalid_number"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+Completed 400 Bad Request in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 3216)
+
+
+Started POST "/api/v1/guests" for 127.0.0.1 at 2023-04-14 18:12:21 -0400
+Processing by Api::V1::GuestsController#create as JSON
+  Parameters: {"guest"=>{"full_name"=>"", "phone_number"=>"invalid_number"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mGuest Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "guests" WHERE "guests"."phone_number" = ? LIMIT ?[0m  [["phone_number", "invalid_number"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+Completed 400 Bad Request in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 3216)
+
+
+Started POST "/api/v1/guests" for 127.0.0.1 at 2023-04-14 18:12:30 -0400
+Processing by Api::V1::GuestsController#create as JSON
+  Parameters: {"guest"=>{"full_name"=>"John Doe", "phone_number"=>"1234567890"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mGuest Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "guests" WHERE "guests"."phone_number" = ? LIMIT ?[0m  [["phone_number", "1234567890"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+Completed 400 Bad Request in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 2927)
+
+
+Started POST "/api/v1/guests" for 127.0.0.1 at 2023-04-14 18:13:46 -0400
+Processing by Api::V1::GuestsController#create as JSON
+  Parameters: {"guest"=>{"full_name"=>"John Doe", "phone_number"=>"1234567890"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mGuest Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "guests" WHERE "guests"."phone_number" = ? LIMIT ?[0m  [["phone_number", "1234567890"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+Completed 400 Bad Request in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 2925)
+
+
+Started POST "/api/v1/guests" for 127.0.0.1 at 2023-04-14 18:13:56 -0400
+Processing by Api::V1::GuestsController#create as JSON
+  Parameters: {"guest"=>{"full_name"=>"", "phone_number"=>"invalid_number"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mGuest Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "guests" WHERE "guests"."phone_number" = ? LIMIT ?[0m  [["phone_number", "invalid_number"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+Completed 400 Bad Request in 2ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 3199)
+
+
+Started POST "/api/v1/guests" for 127.0.0.1 at 2023-04-14 18:14:16 -0400
+Processing by Api::V1::GuestsController#create as JSON
+  Parameters: {"guest"=>{"full_name"=>"John Doe", "phone_number"=>"123456890"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mGuest Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "guests" WHERE "guests"."phone_number" = ? LIMIT ?[0m  [["phone_number", "123456890"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+Completed 400 Bad Request in 6ms (Views: 0.1ms | ActiveRecord: 0.1ms | Allocations: 2812)
+
+
+Started POST "/api/v1/guests" for 127.0.0.1 at 2023-04-14 18:14:25 -0400
+Processing by Api::V1::GuestsController#create as JSON
+  Parameters: {"guest"=>{"full_name"=>"John Doe", "phone_number"=>"1234568901"}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mGuest Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "guests" WHERE "guests"."phone_number" = ? LIMIT ?[0m  [["phone_number", "1234568901"], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mGuest Create (1.8ms)[0m  [1m[32mINSERT INTO "guests" ("full_name", "phone_number", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["full_name", "John Doe"], ["phone_number", "1234568901"], ["created_at", "2023-04-14 22:14:25.218045"], ["updated_at", "2023-04-14 22:14:25.218045"]]
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/guests_controller.rb:7:in `create'
+Completed 201 Created in 5ms (Views: 0.1ms | ActiveRecord: 2.3ms | Allocations: 3583)
+
+

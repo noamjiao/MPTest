@@ -1,0 +1,14 @@
+{
+  "entrypoints": {
+    "react_bundle": {
+      "js": [
+        "/packs/js/react_bundle-8d85d98fea2276d28043.js"
+      ],
+      "js.map": [
+        "/packs/js/react_bundle-8d85d98fea2276d28043.js.map"
+      ]
+    }
+  },
+  "react_bundle.js": "/packs/js/react_bundle-8d85d98fea2276d28043.js",
+  "react_bundle.js.map": "/packs/js/react_bundle-8d85d98fea2276d28043.js.map"
+}
