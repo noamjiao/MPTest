@@ -10,11 +10,11 @@
 
 2. If entered name wrong:
 
-	![image-20230414020625345](./image-20230414020625345.png)
+	<img src="./image-20230414020625345.png" alt="image-20230414020625345" style="zoom:50%;" />
 
 3. If Phone Number wrong:
 
-	![image-20230414020652876](./image-20230414020652876.png)
+	<img src="./image-20230414020652876.png" alt="image-20230414020652876" style="zoom:50%;" />
 
 # Second Question Result
 
